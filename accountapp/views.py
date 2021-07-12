@@ -14,8 +14,11 @@ def hello_world(request):
         new_data.text = temp
         new_data.save()
 
+        data_list = HelloWorld.objects.all()
+
         return render(request, 'accountapp/hello_world.html',
-                      context={'new_data': new_data})
+                      context={'data_list': data_list})
     else:
+        data_list = HelloWorld.objects.all()
         return render(request, 'accountapp/hello_world.html',
-                      context={'text': 'GET METHOD!'})
+                      context={'data_list': data_list})
