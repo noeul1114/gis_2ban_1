@@ -59,4 +59,12 @@
 }
 
 
+.comment_box {
+    text-align: left;
+    border: solid;
+    border-color: #d0d0d0;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
 
