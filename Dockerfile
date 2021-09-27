@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo 'SDLFKMsldkfm'
+RUN echo 'asdfasdgawegasdf'
 
 RUN git clone https://github.com/noeul1114/gis_2ban_1.git
 
